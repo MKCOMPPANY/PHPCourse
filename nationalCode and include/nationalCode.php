@@ -28,6 +28,6 @@ $mod =  $sum % 11;
     echo "false";
   }
 }else
-echo "national code must be 10 character";
+echo "national code must be 10 char";
   
 ?>
