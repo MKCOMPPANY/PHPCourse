@@ -22,11 +22,11 @@ $mod =  $sum % 11;
     $reversed = array_reverse($nationalCode);
     if($reversed[11-$mod]==$nationalCode[$counter]){
         echo "true";
-    }
-  }
-  else{
+    } else{
     echo "false";
   }
+  }
+ 
 }else
 echo "national code must be 10 char";
   
